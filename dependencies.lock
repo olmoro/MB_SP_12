@@ -1,0 +1,21 @@
+dependencies:
+  espressif/esp-modbus:
+    component_hash: 5d5e90b9e55721a8a194b301ad8102d4affb647f47b74cd413ff7d1ce2c1169c
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 1.0.18
+  idf:
+    component_hash: null
+    source:
+      type: idf
+    version: 5.4.0
+  mb_example_common:
+    component_hash: null
+    source:
+      path: C:\Users\Olmoro\.platformio\packages\framework-espidf\examples\protocols\modbus\mb_example_common
+      type: local
+    version: '*'
+manifest_hash: 50828afaf21f1f66b370e46446507ca7442715be35dd0b46767c317712cca583
+target: esp32
+version: 1.0.0
